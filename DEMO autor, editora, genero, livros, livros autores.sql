@@ -81,6 +81,32 @@ ALTER TABLE tbl_Livros AUTO_INCREMENT=100;
 
 DESCRIBE tbl_livros;
 
+#TABELA DE AUTORES
+INSERT INTO tbl_autores (NomeAutor, SobrenomeAutor)
+VALUES
+('Frederico', 'sicorra'), ('Sarah', 'Farias'), ('Olavo', 'Billac'), ('Gil', 'Alves');
+
+#TABELA de EDITORAS
+INSERT INTO tbl_editora (NomeEditora)
+VALUES
+('Intriseca'), ('Sextante'), ('Intersaberes'), ('VouLer');
+
+#TABELA de GENERO
+INSERT INTO tbl_genero (Genero)
+VALUES
+('Ficção'), ('Eletronica'), ('Aventura'), ('Informática'), ('Suspense'), ('Literatura');
+
+#Tabela de Livros
+INSERT INTO tbl_livros (NomeLivro, ISBN13, DataPub, PrecoLivro, NumeroPaginas, IdGenero, idEditora)
+VALUES
+('As Crônicas de Nárnia', '1232131212312', '20240509', 49.99, 500, 4, 3);
+
+#Tabela ASSOCIATIVA LIVROSAUTORES
+INSERT INTO tbl_LivrosAutores (idLivro, IdAutor)
+VALUES
+(100,5), (100,3);
+
+
 SHOW TABLES;
 
 
