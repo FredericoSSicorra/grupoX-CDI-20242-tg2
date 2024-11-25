@@ -58,8 +58,16 @@ CONSTRAINT fk_id_livros FOREIGN KEY (IdLivro) REFERENCES tbl_Livros (IdLivro),
 CONSTRAINT fk_id_autores FOREIGN KEY (IdAutor) REFERENCES tbl_Autores (IdAutor)
 );
 
-SHOW TABLES;
+#Criar Tabela Emprestimo
+CREATE TABLE Tbl_Emprestimo (
+IdEmprestimo TINYINT PRIMARY KEY,
+NomeLivro VARCHAR(60) NOT NULL,
+NomeEmprestador VARCHAR (50) NOT NULL,
+DataEmprestimo DATE NOT NULL,
+Duracao TINYINT NOT NULL
+);
 
+SHOW TABLES;
 
 
 
