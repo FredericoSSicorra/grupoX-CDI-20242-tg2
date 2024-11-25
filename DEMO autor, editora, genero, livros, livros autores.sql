@@ -67,6 +67,20 @@ DataEmprestimo DATE NOT NULL,
 Duracao TINYINT NOT NULL
 );
 
+ALTER TABLE tbl_livros
+ADD Edicao TINYINT;
+
+DESCRIBE tbl_livros;
+ALTER TABLE tbl_livros;
+DROP COLUMN Edicao;
+
+ALTER TABLE tbl_Emprestimo
+MODIFY COLUMN IdEmprestimo SMALLINT;
+
+ALTER TABLE tbl_Livros AUTO_INCREMENT=100;
+
+DESCRIBE tbl_livros;
+
 SHOW TABLES;
 
 
