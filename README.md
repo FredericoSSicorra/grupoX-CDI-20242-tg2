@@ -5,4 +5,5 @@
 - Gil Alves Magalhães
 - Olavo Defendi Dalberto 
 - Sarah de Farias
+### Professor Orientador
 - Prof. Dr. Gabriel Machado Lunardi
