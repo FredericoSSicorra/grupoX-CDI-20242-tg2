@@ -114,7 +114,9 @@ INSERT INTO tbl_Multas (IdEmprestimo, Valor, DataMulta) VALUES
 SHOW TABLES;
 
 
-teste interface demo 01
+############################# teste interface demo 01 ##########################################
+
+    
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
@@ -173,3 +175,7 @@ def atualizar_usuario():
         consultar_usuario()
     except Exception as e:
         messagebox.showerror("Erro", f"Erro ao atualizar o usuário: {e}")
+
+# Configuração da interface gráfica
+root = tk.Tk()
+root.title("Biblioteca Universitária")
