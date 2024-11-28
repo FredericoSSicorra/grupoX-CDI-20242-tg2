@@ -112,3 +112,64 @@ INSERT INTO tbl_Multas (IdEmprestimo, Valor, DataMulta) VALUES
 (1, 5.00, '2024-11-25');
 
 SHOW TABLES;
+
+
+teste interface demo 01
+import tkinter as tk
+from tkinter import messagebox
+from tkinter import ttk
+import mysql.connector
+
+
+# Função para conectar ao banco de dados MariaDB
+def conectar():
+    return mysql.connector.connect(
+        host="localhost",
+        user="root",  # Substitua pelo seu nome de usuário do MariaDB
+        password="sua_senha",  # Substitua pela sua senha do MariaDB
+        database="db_BibliotecaUniversitaria"
+    )
+
+
+# Função para consultar usuários
+def consultar_usuario():
+    conn = conectar()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM tbl_Usuarios")
+    usuarios = cursor.fetchall()
+    conn.close()
+
+    # Limpa a tabela antes de exibir os dados
+    for i in tree.get_children():
+        tree.delete(i)
+
+    # Insere os dados na tabela gráfica
+    for usuario in usuarios:
+        tree.insert('', 'end', values=usuario)
+
+
+# Função para atualizar informações de usuário
+def atualizar_usuario():
+    try:
+        id_usuario = int(entry_id_usuario.get())
+        nome = entry_nome.get()
+        email = entry_email.get()
+        telefone = entry_telefone.get()
+        endereco = entry_endereco.get()
+        tipo_usuario = combo_tipo_usuario.get()
+
+        conn = conectar()
+        cursor = conn.cursor()
+        query = """
+        UPDATE tbl_Usuarios
+        SET Nome = %s, Email = %s, Telefone = %s, Endereco = %s, TipoUsuario = %s
+        WHERE IdUsuario = %s
+        """
+        cursor.execute(query, (nome, email, telefone, endereco, tipo_usuario, id_usuario))
+        conn.commit()
+        conn.close()
+
+        messagebox.showinfo("Sucesso", "Usuário atualizado com sucesso!")
+        consultar_usuario()
+    except Exception as e:
+        messagebox.showerror("Erro", f"Erro ao atualizar o usuário: {e}")
