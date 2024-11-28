@@ -178,4 +178,67 @@ def atualizar_usuario():
 
 # Configuração da interface gráfica
 root = tk.Tk()
-root.title("Biblioteca Universitária")
+root.title("Biblioteca Universitária
+
+    # Frame de entrada de dados
+frame_input = tk.Frame(root)
+frame_input.pack(pady=10)
+
+label_id_usuario = tk.Label(frame_input, text="ID do Usuário:")
+label_id_usuario.grid(row=0, column=0, padx=5, pady=5)
+entry_id_usuario = tk.Entry(frame_input)
+entry_id_usuario.grid(row=0, column=1, padx=5, pady=5)
+
+label_nome = tk.Label(frame_input, text="Nome:")
+label_nome.grid(row=1, column=0, padx=5, pady=5)
+entry_nome = tk.Entry(frame_input)
+entry_nome.grid(row=1, column=1, padx=5, pady=5)
+
+label_email = tk.Label(frame_input, text="Email:")
+label_email.grid(row=2, column=0, padx=5, pady=5)
+entry_email = tk.Entry(frame_input)
+entry_email.grid(row=2, column=1, padx=5, pady=5)
+
+label_telefone = tk.Label(frame_input, text="Telefone:")
+label_telefone.grid(row=3, column=0, padx=5, pady=5)
+entry_telefone = tk.Entry(frame_input)
+entry_telefone.grid(row=3, column=1, padx=5, pady=5)
+
+label_endereco = tk.Label(frame_input, text="Endereço:")
+label_endereco.grid(row=4, column=0, padx=5, pady=5)
+entry_endereco = tk.Entry(frame_input)
+entry_endereco.grid(row=4, column=1, padx=5, pady=5)
+
+label_tipo_usuario = tk.Label(frame_input, text="Tipo de Usuário:")
+label_tipo_usuario.grid(row=5, column=0, padx=5, pady=5)
+combo_tipo_usuario = tk.StringVar()
+combo_tipo_usuario.set("Aluno")
+dropdown_tipo_usuario = tk.OptionMenu(frame_input, combo_tipo_usuario, "Aluno", "Professor", "Visitante")
+dropdown_tipo_usuario.grid(row=5, column=1, padx=5, pady=5)
+
+# Botões de ação
+button_atualizar = tk.Button(root, text="Atualizar Usuário", command=atualizar_usuario)
+button_atualizar.pack(pady=5)
+
+button_excluir = tk.Button(root, text="Excluir Usuário", command=excluir_usuario)
+button_excluir.pack(pady=5)
+
+button_consultar = tk.Button(root, text="Consultar Usuários", command=consultar_usuario)
+button_consultar.pack(pady=5)
+
+# Tabela para exibição dos usuários
+tree_frame = tk.Frame(root)
+tree_frame.pack(pady=10)
+
+tree_columns = ("IdUsuario", "Nome", "Email", "Telefone", "Endereco", "TipoUsuario")
+tree = ttk.Treeview(tree_frame, columns=tree_columns, show="headings")
+for col in tree_columns:
+    tree.heading(col, text=col)
+    tree.column(col, width=150)
+tree.pack()
+
+# Executa a função inicial de consulta para carregar dados na tabela
+consultar_usuario()
+
+# Inicia a interface gráfica
+root.mainloop()
