@@ -7,4 +7,4 @@
 - Sarah de Farias
 #### Professor Orientador
 - Prof. Dr. Gabriel Machado Lunardi
-![image](https://github.com/user-attachments/assets/eb720871-d378-4f72-a7d8-2d4f426cebaa)
+
