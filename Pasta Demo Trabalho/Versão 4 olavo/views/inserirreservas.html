@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Reservas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Reservas</h1>
+    <form action="processa_dados_reservas.php" method="POST">
+        <label for="res-id">ID:</label>
+        <input type="number" id="res-id" name="res-id" required>
+
+        <label for="user-id-res">ID do Usuário:</label>
+        <input type="number" id="user-id-res" name="user-id-res" required>
+
+        <label for="book-id-res">Data da Multa:</label>
+        <input type="date" id="book-id-res" name="book-id-res" required>
+
+
+        <button type="submit">Salvar Livro</button>
+    </form>
+</body>
+</html>

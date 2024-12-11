@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Livros</h1>
+    <form action="processa_dados_livros.php" method="POST">
+        <label for="book-id">ID:</label>
+        <input type="number" id="book-id" name="book-id" required>
+
+        <label for="book-title">Título:</label>
+        <input type="text" id="book-title" name="book-title" required>
+
+        <label for="book-genre">Gênero:</label>
+        <input type="text" id="book-genre" name="book-genre" required>
+
+        <label for="publish-date">Data de Publicação:</label>
+        <input type="date" id="publish-date" name="publish-date" required>
+
+        <label for="num-copies">Número de Cópias:</label>
+        <input type="number" id="num-copies" name="num-copies" required>
+
+        <button type="submit">Salvar Livro</button>
+    </form>
+</body>
+</html>
