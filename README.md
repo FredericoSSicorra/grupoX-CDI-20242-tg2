@@ -1,6 +1,6 @@
 # **_Trabalho em Grupo da Disciplina de Ciência de dados 1_**
-## 📍 Criação de um Banco de dados para uma Biblioteca 
-## 📝🔗Requisitos do Código 
+## 📚 Criação de um Banco de dados para uma Biblioteca 📚
+## 📝 Requisitos do Código 🔗
 📌 **RQ1**: Deve ser possível inserir, atualizar e deletar dados de todas as entidades. ✔ 
 ##
 📌 **RQ2**: Deve ser possível listar os dados de todas as entidades. ✔ 
@@ -26,7 +26,7 @@ frequentemente consultadas (utilize a criatividade dentro do seu problema).
 ##  
 📌 **RQ8**: Não utilizar ORM (Object Relational Mapping). ✔
 ##
-## Requisitos do Relatório
+## 📝 Requisitos do Relatório ✏
 📌 O trabalho deve ser organizado, obrigatoriamente, nos mesmos grupos de quatro alunos do TG1. Cada
 grupo deve entregar os seguintes itens compactados em um arquivo .zip ✔
 
