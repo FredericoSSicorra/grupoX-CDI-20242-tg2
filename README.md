@@ -27,15 +27,15 @@ frequentemente consultadas (utilize a criatividade dentro do seu problema).
 📌 **RQ8**: Não utilizar ORM (Object Relational Mapping). ✔
 ##
 ## Requisitos do Relatório
-- 📌 O trabalho deve ser organizado, obrigatoriamente, nos mesmos grupos de quatro alunos do TG1. Cada
-grupo deve entregar os seguintes itens compactados em um arquivo .zip ✔
-- 📌 Relatório detalhado corrigido ✔ 
-- 📌 Descrição do problema, contendo todas as suas restrições e especificidades. ✔
-- 📌 Apresentação do DER e sua transformação no modelo lógico. ✔
-- 📌 Regras de transformação utilizadas e justificativa das decisões de modelagem. ✔ 
-- 📌Descrição das tecnologias adotadas (linguagens, SGBDs, versões, etc).
-- 📌Consultas formuladas para cada um dos requisitos.
-- 📌Telas capturadas da aplicação, demonstrando o funcionamento
+📌 O trabalho deve ser organizado, obrigatoriamente, nos mesmos grupos de quatro alunos do TG1. Cada
+grupo deve entregar os seguintes itens compactados em um arquivo .zip ✔ \**
+📌 Relatório detalhado corrigido ✔ \**
+📌 Descrição do problema, contendo todas as suas restrições e especificidades. ✔ \**
+📌 Apresentação do DER e sua transformação no modelo lógico. ✔ \**
+📌 Regras de transformação utilizadas e justificativa das decisões de modelagem. ✔ \**
+📌Descrição das tecnologias adotadas (linguagens, SGBDs, versões, etc). \**
+📌Consultas formuladas para cada um dos requisitos. \**
+📌Telas capturadas da aplicação, demonstrando o funcionamento.
 ##
  #### 📍 Integrantes do grupo 
 - Frederico de Souza Sicorra
