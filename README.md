@@ -58,7 +58,7 @@ grupo deve entregar os seguintes itens compactados em um arquivo .zip ✔
 
 📌Telas capturadas da aplicação, demonstrando o funcionamento.
 
-https://docs.google.com/document/d/1gk-s9IxYeieErr69tLQ0YhVtDtz9FW3na94vJGRWLoc/edit?usp=sharing
+📌LINK: https://docs.google.com/document/d/1gk-s9IxYeieErr69tLQ0YhVtDtz9FW3na94vJGRWLoc/edit?usp=sharing
 ##
  #### 📍 Integrantes do grupo 
 - Frederico de Souza Sicorra
