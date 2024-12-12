@@ -1,13 +1,5 @@
 # **_Trabalho em Grupo da Disciplina de Ciência de dados 1_**
 ## Criação de um Banco de dados para uma Biblioteca
-#### Integrantes do grupo 
-- Frederico de Souza Sicorra
-- Gil Alves Magalhães
-- Olavo Defendi Dalberto 
-- Sarah de Farias
-#### Professor Orientador
-- Prof. Dr. Gabriel Machado Lunardi
-
 - ## Requisitos da apresentação
 - ✔ RQ1: Deve ser possível inserir, atualizar e deletar dados de todas as entidades
 - ✔ RQ2: Deve ser possível listar os dados de todas as entidades.
@@ -30,4 +22,13 @@ grupo deve entregar os seguintes itens compactados em um arquivo .zip
 - o Descrição das tecnologias adotadas (linguagens, SGBDs, versões, etc).
 - o Consultas formuladas para cada um dos requisitos.
 - o Telas capturadas da aplicação, demonstrando o funcionamento
+
+- #### Integrantes do grupo 
+- Frederico de Souza Sicorra
+- Gil Alves Magalhães
+- Olavo Defendi Dalberto 
+- Sarah de Farias
+#### Professor Orientador
+- Prof. Dr. Gabriel Machado Lunardi
+
 
