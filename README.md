@@ -3,17 +3,27 @@
 
 ## Requisitos da apresentação
 - ✔ RQ1: Deve ser possível inserir, atualizar e deletar dados de todas as entidades
+  
 - ✔ RQ2: Deve ser possível listar os dados de todas as entidades.
+  
 - RQ3: Deve ser possível somar, contar, calcular a média, máximo, mínimo de todas entidades.
 - **Média** SELECT AVG(Preco) AS media_preco / FROM Produtos;
 - **Máximo** SELECT MAX(Preco) AS produto_mais_caro / FROM Produtos;
 - **Mínimo** SELECT MIN(Preco) AS produto_mais_barato / FROM Produtos;
+  
 - RQ4: Implementar consultas SQL que utilizem junções para combinar dados de, pelo menos,
 duas tabelas relacionadas.
+- **GROUP BY** SELECT ID CLIENTE, SUM(Total) AS total_vendas,
+  FROM Pedidos
+  GROUP BY IDCliente;
+
 - RQ5: Implementar consultas que combinem funções de agregação com a cláusula GROUP BY.
+  
 - RQ6: Criar, pelo menos, duas visões (views) que consolidem informações úteis e
 frequentemente consultadas (utilize a criatividade dentro do seu problema).
+
 - ✔ RQ7: Possuir interface gráfica (livre escolha ao grupo entre desktop, web ou mobile).
+  
 - ✔ RQ8: Não utilizar ORM (Object Relational Mapping).
 
  ## Requisitos do Relatório
