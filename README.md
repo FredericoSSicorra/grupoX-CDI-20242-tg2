@@ -32,7 +32,7 @@ frequentemente consultadas (utilize a criatividade dentro do seu problema).
 
 
 📌 **RQ8**: Não utilizar ORM (Object Relational Mapping). ✔
-##
+
 ## Requisitos do Relatório ✏
 📌 O trabalho deve ser organizado, obrigatoriamente, nos mesmos grupos de quatro alunos do TG1. Cada
 grupo deve entregar os seguintes itens compactados em um arquivo .zip ✔
