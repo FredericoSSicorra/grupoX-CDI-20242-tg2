@@ -6,17 +6,18 @@
 - **RQ2**: Deve ser possível listar os dados de todas as entidades. ✔ 
 ##
 - **RQ3**: Deve ser possível somar, contar, calcular a média, máximo, mínimo de todas entidades.
+- 
 - _Média_ SELECT AVG(Preco) AS media_preco / FROM Produtos;
 - _Máximo_ SELECT MAX(Preco) AS produto_mais_caro / FROM Produtos;
 - _Mínimo_ SELECT MIN(Preco) AS produto_mais_barato / FROM Produtos;
 ##
 - **RQ4**: Implementar consultas SQL que utilizem junções para combinar dados de, pelo menos,
 duas tabelas relacionadas.
+##
+- **RQ5**: Implementar consultas que combinem funções de agregação com a cláusula GROUP BY.
 - _GROUP BY_ SELECT ID CLIENTE, SUM(Total) AS total_vendas,
   FROM Pedidos
   GROUP BY IDCliente;
-##
-- **RQ5**: Implementar consultas que combinem funções de agregação com a cláusula GROUP BY.
 ##
 - **RQ6**: Criar, pelo menos, duas visões (views) que consolidem informações úteis e
 frequentemente consultadas (utilize a criatividade dentro do seu problema).
