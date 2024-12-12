@@ -1,6 +1,5 @@
 # **_Trabalho em Grupo da Disciplina de Ciência de dados 1_**
 ## Criação de um Banco de dados para uma Biblioteca
-##
 ## Requisitos da apresentação
 - **RQ1**: Deve ser possível inserir, atualizar e deletar dados de todas as entidades. ✔ 
 ##
