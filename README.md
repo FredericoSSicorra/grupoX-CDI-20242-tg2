@@ -14,18 +14,18 @@
 - _Mínimo_ SELECT MIN(Preco) AS produto_mais_barato / FROM Produtos; ✔
 
 
-📌 **RQ4**: Implementar consultas SQL que utilizem junções para combinar dados de, pelo menos,
-duas tabelas relacionadas.
+📌 **RQ4**: Implementar consultas SQL que utilizem junções para combinar dados de, pelo menos,  
+duas tabelas relacionadas. ✔
 
 
-📌 **RQ5**: Implementar consultas que combinem funções de agregação com a cláusula GROUP BY.
+📌 **RQ5**: Implementar consultas que combinem funções de agregação com a cláusula GROUP BY.  ✔
 - _GROUP BY_ SELECT ID CLIENTE, SUM(Total) AS total_vendas,
   FROM Pedidos
   GROUP BY IDCliente;
 
 
-📌 **RQ6**: Criar, pelo menos, duas visões (views) que consolidem informações úteis e
-frequentemente consultadas (utilize a criatividade dentro do seu problema).
+📌 **RQ6**: Criar, pelo menos, duas visões (views) que consolidem informações úteis e 
+frequentemente consultadas (utilize a criatividade dentro do seu problema).  ✔
 
 
 📌 **RQ7**: Possuir interface gráfica (livre escolha ao grupo entre desktop, web ou mobile). ✔
