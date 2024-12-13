@@ -9,9 +9,9 @@
 
 📌 **RQ3**: Deve ser possível somar, contar, calcular a média, máximo, mínimo de todas entidades. ✔
   
-- _Média_ SELECT AVG(Preco) AS media_preco / FROM Produtos; ✔
-- _Máximo_ SELECT MAX(Preco) AS produto_mais_caro / FROM Produtos; ✔
-- _Mínimo_ SELECT MIN(Preco) AS produto_mais_barato / FROM Produtos; ✔
+- _Média_ SELECT AVG(Preco) AS media_preco / FROM Produtos; 
+- _Máximo_ SELECT MAX(Preco) AS produto_mais_caro / FROM Produtos; 
+- _Mínimo_ SELECT MIN(Preco) AS produto_mais_barato / FROM Produtos; 
 
 
 📌 **RQ4**: Implementar consultas SQL que utilizem junções para combinar dados de, pelo menos,  
