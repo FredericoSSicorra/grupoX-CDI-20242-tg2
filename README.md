@@ -7,7 +7,7 @@
 📌 **RQ2**: Deve ser possível listar os dados de todas as entidades. ✔ 
 
 
-📌 **RQ3**: Deve ser possível somar, contar, calcular a média, máximo, mínimo de todas entidades.
+📌 **RQ3**: Deve ser possível somar, contar, calcular a média, máximo, mínimo de todas entidades. ✔
   
 - _Média_ SELECT AVG(Preco) AS media_preco / FROM Produtos;
 - _Máximo_ SELECT MAX(Preco) AS produto_mais_caro / FROM Produtos;
