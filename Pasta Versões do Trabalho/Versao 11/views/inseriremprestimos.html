@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Empréstimos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Empréstimos</h1>
+    <form action="processa_dados_emprestimos.php" method="POST">
+        <label for="emp-id">ID:</label>
+        <input type="number" id="emp-id" name="emp-id" required>
+
+        <label for="emp-date">Data do Empréstimo:</label>
+        <input type="date" id="emp-date" name="emp-date" required>
+
+        <label for="dev-date">Data da Devolução:</label>
+        <input type="date" id="dev-date" name="dev-date" required>
+
+        <label for="book-id-emp">ID do livro:</label>
+        <input type="number" id="book-id-emp" name="book-id-emp" required>
+
+        <button type="submit">Salvar Livro</button>
+    </form>
+</body>
+</html>
