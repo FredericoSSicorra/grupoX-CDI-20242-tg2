@@ -50,13 +50,13 @@ grupo deve entregar os seguintes itens compactados em um arquivo .zip ✔
 📌 Regras de transformação utilizadas e justificativa das decisões de modelagem. ✔
 
 
-📌Descrição das tecnologias adotadas (linguagens, SGBDs, versões, etc). 
+📌Descrição das tecnologias adotadas (linguagens, SGBDs, versões, etc). ✔
 
 
-📌Consultas formuladas para cada um dos requisitos. 
+📌Consultas formuladas para cada um dos requisitos. ✔
 
 
-📌Telas capturadas da aplicação, demonstrando o funcionamento.
+📌Telas capturadas da aplicação, demonstrando o funcionamento. ✔
 
 📌LINK DO RELATORIO: https://docs.google.com/document/d/1gk-s9IxYeieErr69tLQ0YhVtDtz9FW3na94vJGRWLoc/edit?usp=sharing
 
